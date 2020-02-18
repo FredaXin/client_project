@@ -1,4 +1,9 @@
-# Utilizing Yelp cost estimates for estimating neighborhood affluency
+# Utilizing Yelp Cost Estimates for Estimating Neighborhood Affluency
+Authors:  
+
+[Jamie McElhiney](https://github.com/jmce619)  
+[Julie B](https://github.com/juliebga)  
+[Freda Xin](https://github.com/FredaXin)  
 
 ___
 ## Problem Statement
@@ -34,7 +39,10 @@ ___
 ___
 ## Conclusion
 ___
-## Next steps
+## Next Steps
 ___
 
 ## References
+- [Github Link for DSI-NYC (2) students' past
+work.](https://github.com/Shaddyjr/predicting_affluence_using_yelp)
+- 
