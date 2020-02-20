@@ -18,23 +18,24 @@ ___
 During the data collection process, we used [Yelp Fusion
 API](https://www.yelp.com/developers/documentation/v3/get_started) and collected
 30,293 Yelp business information in NYC. To measure neighborhoods
-afflunency, we used property values, i.e. home prices. This approach makes
+afflunency, we used property values, i.e. home prices, and collected data from
+the [NYC department of Finance Rolling Sales Data](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page). This approach makes
 intuitive sense, since a neighborhood's property can reveal how affluent the
-residents are in that area. In addition, this approach is capable to incorporate
+residents are in that area. In addition, this approach is capable of incorporating
 the most up to date real estate information (since NYC Department of Finance
-generated data on a rolling basis for the past 12 months); this is an
-advantage comparing to past approaches of using IRS tax return
+generates data on a rolling basis for the past 12 months); this is an
+advantage comparing to the past approaches of using IRS tax return
 (which can be out of date and does not offer the current affluency status of a neighborhood).
 
 For our project, we chose NYC as a case study to develop our models: NYC has
 a high density of population, high concentration of businesses on Yelp, and high
 diversity of types of businesses and neighborhoods, which are desirable when
 training models; We also envisioned to generalize our models and to make it
-transferrable to other urban areas in the U.S and took the initial steps toward this
+transferrable to other urban areas in the U.S. We took the initial steps toward this
 direction in our modeling phase. 
 
 During the EDA process, we investigated Yelp's $ rating and found that the
-most frequent ratings are $$ for NYC. We further break this down into the 5
+most frequent ratings are $$ for NYC. We further broke this down into the 5
 boroughs and found that $ rating are the most common price ratings for Queens,
 Brooklyn, and Bronx; whereas $$ signs are the most common price rating for
 Manhattan and Satan Island. The fact that Satan Island has a very high percentage
@@ -42,8 +43,8 @@ of $$ rating led us to rethink our assumption: is Yelp's $ rating a good
 predictor for a neighborhood's affluency status? We then investigated other
 features from Yelp's business listings, and found that (business)
 categories yielded far more illuminating insights about a neighborhood's
-affluency status. These features derived from the categories proved to be very
-predictive. In addition, we used K-means to generate 80 clusters based on
+affluency status. The features derived from the categories proved to be very
+predictive in our models. In addition, we used K-means to generate 80 clusters based on
 latitudes and longitudes: those clusters defined our 'neighborhood'.  
 
 As we stepped into the modeling phase, we developed two different approaches:
