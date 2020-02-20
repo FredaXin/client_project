@@ -130,7 +130,16 @@ In addition, since no geographical features have been used as features to train 
 
 ___
 ## Next Steps
-Both of our modeling options came with certain assumptions: for option 1 
+- For both of our modeling options, we assumed that the characteristics of
+business listings on Yelp can predict a neighborhood’s affluency status. Is this
+assumption sound? 
+
+- We intentionally excluded any geographical information when training our models, since we assumed that the characteristics of the business, NOT the location information of business, can predict a neighborhoods’ affluence status. 
+
+- Optimizing option 1 by automating the aggregation process. 
+
+- Generalized option 1 and test it on other U.S. Urban areas. 
+
 ___
 
 ## References
