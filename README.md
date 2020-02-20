@@ -17,7 +17,11 @@ ___
 
 ___
 ## Data Dictionary: Yelp
+**Data Collection** 
 
+**EDA**
+
+**Modeling**
 
 | Name | Data Types (Pandas) | Description |
 |---|---|---|
