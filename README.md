@@ -92,13 +92,13 @@ others. We also explored Principal Component Analysis as a modeling option
 for our cluster dataset and uncover interesting business associations that are
 predictors of affluent neighborhoods.
 
-Via Logistic Regression, we discovered numerous business types that are predictive of affluence in our NYC-based areas. The top predictors of affluence were french restaurants, cocktail bars and ramen shops. Cafes and Coffee shops also had a strong presence, along with wine and beer bars. This is intuitively sensible, as these types of business would typically be frequented by people with extra expendible income. People who are more affluent would be more able to sustain upscale alcohol establishments (cocktail and wine bars) and cafes.
+Via Logistic Regression, we discovered numerous business types that are predictive of affluence in our NYC-based areas. The top predictors of affluence were french restaurants, cocktail bars and ramen shops. Cafes and Coffee shops also had a strong presence, along with wine and beer bars. This is intuitively sensible, as these types of business would typically be frequented by people with extra expendable income. People who are more affluent would be more able to sustain upscale alcohol establishments (cocktail and wine bars) and cafes.
 
 We also discovered business types that are predictive of the negative class ('not affluent'). The top predictors of 'not affluent' areas are the fraction of pizza restaurants, hot dog shops, donut shops & 1-dollar sign businesses in general. This is intuitively sensible as these types of businesses provide quick and inexpensive food and product options.
 ___
-For **modeling option 2**,  the Voting Classifier outperfomed the other modeling methods. The
+For **modeling option 2**,  the Voting Classifier outperformed the other modeling methods. The
 Logistic Regression model was the second best performing model. Since the later
-is very interpreterable, we explained the features based on the coefficient.
+is very interpretable, we explained the features based on the coefficient.
 
 For this modeling option, surprisingly, **review_count** is the strongest predictor for the positive class. The potential reason might be: More review counts indicate higher volumes of costumers, which means the location might have a higher density of population and/or higher traffic.
 ___
@@ -106,7 +106,7 @@ ___
 - We have been successful in predicting affluence, based on the percentages of business types and prices within an area.
 - We found that key business types are clearly associated with and predictive of a neighborhood’s affluence
 - When assessing an individual business (i.e., whether it’s in an affluent neighborhood) – the review counts and rating improve the predictions.
-- Option 1 is our first step towards generalization - in the future, we will expand this method by transferring this approach to other urban areas 
+- Option 1 is our first step towards generalization - in the future, we will expand this method by transferring this approach to other urban areas.
 
 ___
 
@@ -114,4 +114,5 @@ ___
 - [Github Link for DSI-NYC (2) students' past
 work.](https://github.com/Shaddyjr/predicting_affluence_using_yelp)
 
-- 
+- [Github Link for DSI-LA students' past
+work.](https://github.com/hovikgas/hovieco)
